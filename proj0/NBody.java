@@ -5,6 +5,7 @@ public class NBody{
 		double radius = in.readDouble();
         return radius;
     }
+
     public static Planet[] readPlanets(String filename){
         In in = new In(filename);
         int number = in.readInt();
@@ -22,6 +23,7 @@ public class NBody{
         }
         return planets;
     }
+
     public static void main(String[] args) {
         double T = Double.parseDouble(args[0]);
         double dt = Double.parseDouble(args[1]);
@@ -61,7 +63,6 @@ public class NBody{
             StdDraw.show();
             StdDraw.pause(10);
             t+=dt;
-            
         }
         StdOut.printf("%d\n", planets.length);
         StdOut.printf("%.2e\n", radius);
