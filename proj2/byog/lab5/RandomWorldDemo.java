@@ -28,6 +28,7 @@ public class RandomWorldDemo {
                 tiles[x][y] = randomTile();
             }
         }
+
     }
 
     /** Picks a RANDOM tile with a 33% change of being

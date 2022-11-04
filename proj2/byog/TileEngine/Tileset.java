@@ -33,6 +33,8 @@ public class Tileset {
     public static final TETile SAND = new TETile('▒', Color.yellow, Color.black, "sand");
     public static final TETile MOUNTAIN = new TETile('▲', Color.gray, Color.black, "mountain");
     public static final TETile TREE = new TETile('♠', Color.green, Color.black, "tree");
+    public static final TETile MY_DOOR = new TETile('█',Color.pink,Color.darkGray,"my door");
+    public static final TETile ROOM_FLOOR = new TETile('*',new Color(128,192,128),Color.orange,"developed floor");
 }
 
 
